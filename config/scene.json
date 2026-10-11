@@ -1,0 +1,24 @@
+{
+  "voxel_size_m": 0.05,
+  "camera": {"width": 640, "height": 360, "horizontal_fov_deg": 87.0, "min_depth_m": 0.3, "max_depth_m": 3.0},
+  "lidar": {"width": 1024, "height": 128, "min_elevation_deg": -7.0, "max_elevation_deg": 52.0, "min_range_m": 0.1, "max_range_m": 12.0, "samples_per_frame": 20000},
+  "pelvis_height_m": 0.79,
+  "objects": [
+    {"name": "floor", "kind": "box", "center": [1,0,-0.10], "size": [10,8,0.20], "color": [0.30,0.34,0.39]},
+    {"name": "back_wall", "kind": "box", "center": [5,0,1.25], "size": [0.15,8,2.5], "color": [0.67,0.70,0.73]},
+    {"name": "left_wall", "kind": "box", "center": [1,4,1.25], "size": [8,0.15,2.5], "color": [0.52,0.60,0.66]},
+    {"name": "right_wall", "kind": "box", "center": [1,-4,1.25], "size": [8,0.15,2.5], "color": [0.52,0.60,0.66]},
+    {"name": "low_box", "kind": "box", "center": [1.0,-0.9,0.20], "size": [0.70,0.70,0.40], "color": [0.90,0.49,0.20]},
+    {"name": "high_box", "kind": "box", "center": [2.5,1.0,0.60], "size": [0.70,0.70,1.20], "color": [0.24,0.61,0.70]},
+    {"name": "step_10cm", "kind": "box", "center": [2.4,-1.7,0.05], "size": [0.45,1.0,0.10], "color": [0.63,0.68,0.27]},
+    {"name": "step_20cm", "kind": "box", "center": [2.85,-1.7,0.10], "size": [0.45,1.0,0.20], "color": [0.63,0.68,0.27]},
+    {"name": "step_30cm", "kind": "box", "center": [3.3,-1.7,0.15], "size": [0.45,1.0,0.30], "color": [0.63,0.68,0.27]},
+    {"name": "thin_pole_10cm", "kind": "cylinder", "center": [1.8,0.25,0.65], "radius": 0.05, "height": 1.3, "color": [0.88,0.69,0.23]},
+    {"name": "table_top", "kind": "box", "center": [3.6,2.5,0.77], "size": [1.2,1.0,0.10], "color": [0.56,0.40,0.29]},
+    {"name": "table_leg_a", "kind": "box", "center": [3.15,2.15,0.36], "size": [0.10,0.10,0.72], "color": [0.40,0.40,0.40]},
+    {"name": "table_leg_b", "kind": "box", "center": [4.05,2.15,0.36], "size": [0.10,0.10,0.72], "color": [0.40,0.40,0.40]},
+    {"name": "table_leg_c", "kind": "box", "center": [3.15,2.85,0.36], "size": [0.10,0.10,0.72], "color": [0.40,0.40,0.40]},
+    {"name": "table_leg_d", "kind": "box", "center": [4.05,2.85,0.36], "size": [0.10,0.10,0.72], "color": [0.40,0.40,0.40]}
+  ],
+  "trajectory_xy_yaw_deg": [[-1.8,0,0],[-0.8,0,0],[0.1,0,0],[0.1,0,60],[0.1,0,120],[0.1,0,180],[0.1,0,240],[0.1,0,300],[0.1,0,360],[-0.8,0,360],[-1.8,0,360]]
+}

@@ -1,0 +1,13 @@
+.deps/
+.mapping_env/
+.cuda_extra/
+third_party/
+outputs/
+__pycache__/
+*.pyc
+.env
+.env.*
+!.env.example
+*.log
+.vscode/
+.idea/
